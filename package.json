@@ -1,0 +1,24 @@
+{
+  "name": "pdf-generate-thumbnail-nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "pdf-image": "^2.0.0",
+    "pdf-thumbnail": "^1.0.4",
+    "restify": "^7.2.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.1.5",
+    "@babel/core": "^7.1.6",
+    "@babel/node": "^7.0.0",
+    "@babel/preset-env": "^7.1.6",
+    "@babel/register": "^7.0.0"
+  },
+  "scripts": {
+    "start": "nodemon index.js --exec babel-node"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
