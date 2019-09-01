@@ -5,15 +5,15 @@
   "main": "index.js",
   "dependencies": {
     "pdf-image": "^2.0.0",
-    "pdf-thumbnail": "^1.0.4",
-    "restify": "^7.2.2"
+    "pdf-thumbnail": "^1.0.6",
+    "restify": "^8.4.0"
   },
   "devDependencies": {
-    "@babel/cli": "^7.1.5",
-    "@babel/core": "^7.1.6",
-    "@babel/node": "^7.0.0",
-    "@babel/preset-env": "^7.1.6",
-    "@babel/register": "^7.0.0"
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "@babel/node": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/register": "^7.5.5"
   },
   "scripts": {
     "start": "nodemon index.js --exec babel-node"
